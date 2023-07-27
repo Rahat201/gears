@@ -1,22 +1,73 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Gears
-    </title>
+    <title>Gears</title>
+
+    <!-- daiyui ui and tailwind css link -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@3.5.0/dist/full.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Font awesome -->
+    <script src="https://kit.fontawesome.com/47dae7f035.js" crossorigin="anonymous"></script>
+
+    <!-- Google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+
+    <style>
+        .font-Poppins {
+            font-family: 'Poppins', sans-serif;
+        }
+    </style>
 </head>
-<body>
-    hbdjshvbjhsdbvdsbvdk
-    dsjvnksdjvnkvjn
-    sdfvjksfvnksfjn
-    jflkvjksfjnvkj
+
+<body class="font-Poppins">
+    <header>
+        <nav class="px-2 md:px-4 lg:px-28 py-5">
+            <div class="navbar justify-between">
+                <div class="navbar-star md:hidden">
+                    <div class="dropdown">
+                        <label tabindex="0" class="btn btn-ghost btn-circle">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                                stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M4 6h16M4 12h16M4 18h7" />
+                            </svg>
+                        </label>
+                        <ul tabindex="0"
+                            class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 text-base font-semibold rounded-box w-52">
+                            <li><a href="">Home</a></li>
+                            <li><a href="">Products</a></li>
+                            <li><a href="">Sign up</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="">
+                    <h3 class="text-2xl font-bold">Influencer products</h3>
+                </div>
+                <div class=" lg:gap-8">
+                    <ul class="hidden md:flex lg:flex gap-8 text-base font-semibold ">
+                        <li><a href="">Home</a></li>
+                        <li><a href="">Products</a></li>
+                        <li><a href="">Sign up</a></li>
+                        <li><a href="">Log In</a></li>
+                        <li><a href=""><i class="fa-solid fa-magnifying-glass"></i></a></li>
+                    </ul>
+                    <a href=""><i class="fa-solid fa-cart-shopping"></i></a>
+                </div>
+            </div>
+
+        </nav>
+    </header>
+    <main></main>
+    <footer></footer>
+
 
 </body>
-</html>rm -rf .git
-git init
-git add .
-git commit -m "added"
-git branch -M main
-git remote add origin <YOUR_GITHUB_REPO_LINK>
-git push -u origin main -f
+
+</html>
